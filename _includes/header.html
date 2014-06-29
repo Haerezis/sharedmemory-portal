@@ -1,0 +1,30 @@
+<!--[if lt IE 7]>
+   <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+<![endif]-->
+
+
+<header class="site-header">
+
+  <div class="wrap_">
+    <div class="site-cover">
+        <!-- <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a> -->
+    </div>
+
+    
+
+    <nav class="site-nav"> 
+      <div class="trigger">
+      <ul>
+        {% assign pages = site.pages | sort:"order" %}  
+        {% for page in pages %}
+          {% if page.url != "/" %}
+            <li><a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+      </div>
+    </nav>
+
+  </div>
+
+</header>
