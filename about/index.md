@@ -2,6 +2,7 @@
 layout: page
 title: A propos | About
 permalink: /about/
+primary: true
 order: 1
 ---
 

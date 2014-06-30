@@ -1,12 +1,14 @@
 # Site settings
-title: Shared Memory
+title: Shared Memory Portal
 email: thomaskuntz@sharedmemory.fr
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+description: ""
 baseurl: ""
 url: "http://sharedmemory.fr"
 username: "Haerezis"
 fullname: "Thomas Kuntz"
-linkedin_url: "https://github.com/Haerezis"
+qualification: "Student at the University of Strasbourg, Master RISE"
+qualification_url: "http://mathinfo.unistra.fr/offre-de-formation/master-mention-informatique/master-rise"
+linkedin_url: "https://linkedin.com/pub/thomas-kuntz/83/979/27b"
 
 # Build settings
 markdown: kramdown

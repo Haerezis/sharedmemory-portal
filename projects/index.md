@@ -2,6 +2,7 @@
 layout: page
 title: Projets | Projects
 permalink: /project/
+primary: true
 order: 2
 ---
 
