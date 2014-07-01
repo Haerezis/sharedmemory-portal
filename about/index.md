@@ -6,6 +6,14 @@ primary: true
 order: 1
 ---
 
+
+<img src="{{ site.url }}/img/Photo_Thomas_Kuntz.jpg" alt="My photo" 
+style="
+float:left;
+width:160px ;
+height:auto;
+margin-right:25px;
+margin-bottom:25px;" />
 Hi, my name is Thomas Kuntz. I'm a french student at the [University of
 Strasbourg](http://www.unistra.fr/index.php?id=accueil),
 currently in the 2nd year of a Master degree in [Computer Science](http://mathinfo.unistra.fr/)
@@ -15,7 +23,7 @@ If I had to describe myself, I would say that I'm smart,resourceful and responsi
 I easely tend to take care of things myself, and only ask for help when I'm totally stuck.
 I see this as a quality but also as a flaw, because it make me more used to work alone
 than in a team (even though I'm still capable to do so).    
-
+<br/><br/>
 I'm also passionate about Computer Science, taking every change I can get to learn
 new things, especially in embedded programming : even though my univertisy course
 give some class on embedded programming, I have taught myself a lot about electronics
